@@ -7,8 +7,8 @@ function makeSound(key)
     case 'w' : var audio = new Audio('sounds/tom-1.mp3');
     audio.play();
     break;
-    case 'a' : var audio = new Audio('sounds/tom-2.mp3');
-    audio.play();
+    case 'a' : var audion = new Audio('sounds/tom-2.mp3');
+    audion.play();
     break;
     case 's' : var audio = new Audio('sounds/tom-3.mp3');
     audio.play();
